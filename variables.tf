@@ -38,7 +38,7 @@ variable "instance_iam_role_name" {
 
 variable "instance_iam_role_use_name_prefix" {
   description = "Determines whether the IAM role name (`instance_iam_role_name`) is used as a prefix"
-  type        = string
+  type        = bool
   default     = true
 }
 
